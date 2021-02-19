@@ -1,0 +1,46 @@
+.arrowR {
+    border-bottom: 1px solid rgb(128, 228, 15);
+    border-right: 1px solid rgb(128, 228, 15);
+    height: 1.5vh;
+    width: 1.5vh;
+    transform: rotate(-45deg);
+    color: black;
+    margin: 0.7vh;
+}
+  .arrowL {
+    border-bottom: 1px solid rgb(255, 0, 0);
+    border-right: 1px solid rgb(253, 0, 0);
+    height: 1.5vh;
+    width: 1.5vh;
+    transform: rotate(-45deg);
+    color: red;
+    margin: 0.7vh;
+    margin-left: 3vw;
+  }
+  .main{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 3vh;
+  }
+  .inputDataDiv{
+      width: 50vw;
+  }
+  .outputDiv{
+    width: 50vw;
+  }
+  .outputDiv2{
+      text-align: center;
+    margin-bottom: 3vh;
+  }
+  .arrows{
+      margin-left:2vw;
+    color: black;
+  }
+  body{
+      color: white;
+    min-height: 100vh;
+    background-image: url();
+    background: linear-gradient(rgba(51, 52, 53, 0.5), rgba(72, 89, 146, 0.5)), url("https://cdn.hipwallpaper.com/i/4/33/U4DgFN.jpg");
+
+  /*  background: linear-gradient(#9198e5, #9198e5) no-repeat;*/
+  }
